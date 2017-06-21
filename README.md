@@ -25,7 +25,7 @@ Plugin 'beigebrucewayne/Turtles'
 
 Copy color to vim...if `~/.vim/colors/` doesn't exist, create folder.
 ```
- cp ~/.vim/bundle/tender/colors/tender.vim ~/.vim/colors/tender.vim
+ cp ~/.vim/bundle/tender/colors/turtle.vim ~/.vim/colors/turtle.vim
 ```
 
 
