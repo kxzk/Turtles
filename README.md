@@ -29,9 +29,9 @@ Copy color to vim if no exist `~/.vim/colors/`, create folder.
 ```
 
 
-#### inspiration
-```
-crusoexia/vim-monokai
-liuchengxu/space-vim-dark
-jacoborus/tender.vim
-```
+inspiration
+
+[monokai](https://github.com/crusoexia/vim-monokai)
+[tender](https://github.com/jacoborus/tender.vim/blob/master/README.md)
+[space-vim-dark](https://github.com/liuchengxu/space-vim-dark)
+
