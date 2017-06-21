@@ -1,10 +1,13 @@
 ![TMNT](http://i.imgur.com/dQ24EoO.png)
-==============================================================================================================
 
-A colorscheme for Vim inspired by the legendary teenage warriors.
 
-## Screenshots
-![gvdiff](https://cloud.githubusercontent.com/assets/829859/18417983/3253da42-783e-11e6-93ac-b0f506f0a3c5.png)
+# A colorscheme for Vim inspired by the legendary teenage warriors.
+
+
+
+### Screenshots
+![python](http://i.imgur.com/bFCw1hs.png)
+![javascript](http://i.imgur.com/xeu5egX.png)
 
 
 ## Installation
@@ -20,12 +23,15 @@ NeoBundle 'beigebrucewayne/Turtles'
 Plugin 'beigebrucewayne/Turtles'
 ```
 
-Copy color to vim if no exist `~/.vim/colors/`, create folder.
+Copy color to vim...if `~/.vim/colors/` doesn't exist, create folder.
 ```
  cp ~/.vim/bundle/tender/colors/tender.vim ~/.vim/colors/tender.vim
 ```
 
 
-inspiration from:
-crusoexia/vim-monokai
+Inspiration
+
+[monokai](https://github.com/crusoexia/vim-monokai)  
+[tender](https://github.com/jacoborus/tender.vim/blob/master/README.md)  
+[spacemacs](https://github.com/nashamri/spacemacs-theme)  
 
