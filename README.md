@@ -29,7 +29,7 @@ Copy color to vim...if `~/.vim/colors/` doesn't exist, create folder.
 ```
 
 
-inspiration
+Inspiration
 
 [monokai](https://github.com/crusoexia/vim-monokai)  
 [tender](https://github.com/jacoborus/tender.vim/blob/master/README.md)  
