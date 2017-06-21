@@ -90,8 +90,7 @@ let s:aqua        = { "gui": "#5E90C7", "cterm": "81" }
 let s:yellow      = { "gui": "#E6DB74", "cterm": "186" }
 let s:orange      = { "gui": "#E1AD3D", "cterm": "208" }
 let s:purple      = { "gui": "#BE5A79", "cterm": "141" }
-let s:red         = { "gui": "#4C9174", "cterm": "196" }
-let s:darkred     = { "gui": "#5f0000", "cterm": "52" }
+let s:red         = { "gui": "#DD4641", "cterm": "196" }
 
 let s:addfg       = { "gui": "#d7ffaf", "cterm": "193" }
 let s:addbg       = { "gui": "#5f875f", "cterm": "65" }
@@ -112,7 +111,7 @@ call s:h("StatusLine",    { "fg": s:warmgrey,   "bg": s:black,        "format": 
 call s:h("StatusLineNC",  { "fg": s:darkgrey,   "bg": s:warmgrey,     "format": "reverse" })
 call s:h("TabLine",       { "fg": s:white,      "bg": s:darkblack,    "format": "reverse" })
 call s:h("Visual",        {                     "bg": s:lightgrey })
-call s:h("Search",        { "fg": s:black,      "bg": s:orange })
+call s:h("Search",        { "fg": s:black,      "bg": s:green })
 call s:h("MatchParen",    { "fg": s:black,      "bg": s:purple })
 call s:h("Question",      { "fg": s:yellow })
 call s:h("ModeMsg",       { "fg": s:yellow })
@@ -141,7 +140,7 @@ call s:h("FoldColumn",    {                     "bg": s:darkblack })
 "        Incsearch"
 
 " popup menu
-call s:h("Pmenu",         { "fg": s:green, "bg": s:lightblack })
+call s:h("Pmenu",         { "fg": s:aqua, "bg": s:lightblack })
 call s:h("PmenuSel",      { "fg": s:aqua,       "bg": s:black,        "format": "reverse,bold" })
 call s:h("PmenuThumb",    { "fg": s:lightblack, "bg": s:grey })
 "        PmenuSbar"
@@ -179,7 +178,7 @@ call s:h("Define",        { "fg": s:pink })
 call s:h("Macro",         { "fg": s:green })
 call s:h("PreCondit",     { "fg": s:green })
                            
-call s:h("Special",       { "fg": s:purple })
+call s:h("Special",       { "fg": s:red })
 call s:h("SpecialChar",   { "fg": s:pink })
 call s:h("Delimiter",     { "fg": s:pink })
 call s:h("SpecialComment",{ "fg": s:aqua })
@@ -191,7 +190,7 @@ call s:h("Comment",       { "fg": s:warmgrey, "format": "italic" })
                          
 call s:h("Underlined",    { "fg": s:green })
 call s:h("Ignore",        {})
-call s:h("Error",         { "fg": s:red, "bg": s:darkred })
+call s:h("Error",         { "fg": s:black, "bg": s:red })
 
 " NerdTree
 " --------
@@ -219,35 +218,80 @@ call s:h("vimCommand",              { "fg": s:pink })
 
 " Python
 
-" hi pythonLambdaExpr      ctermfg=105 guifg=#8787ff
-" hi pythonInclude         ctermfg=68  guifg=#5f87d7 cterm=bold gui=bold
-" hi pythonClass           ctermfg=167 guifg=#FF62B0 cterm=bold gui=bold
-" hi pythonParameters      ctermfg=147 guifg=#AAAAFF
-call s:h("pythonParameters", { "fg": s:green })
-call s:h("pythonParam", { "fg": s:green })
-" hi pythonParam           ctermfg=175 guifg=#67b11d
-" hi pythonBrackets        ctermfg=183 guifg=#d7afff
+call s:h("pythonParameters", { "fg": s:red })
+call s:h("pythonParam",    { "fg": s:aqua })
+call s:h("pythonDot",      { "fg": s:red })
 call s:h("pythonBrackets", { "fg": s:spacemacs_type })
-" hi pythonClassParameters ctermfg=111 guifg=#FF5353
-" hi pythonSelf            ctermfg=68  guifg=#5f87d7 cterm=bold gui=bold
 call s:h("pythonSelf",      { "fg": s:donatello })
+call s:h("pythonBuiltinType",   { "fg": s:orange })
+call s:h("pythonBuiltinObj",    { "fg": s:orange })
+call s:h("pythonBuilinFunc",    { "fg": s:green })
+"hi def link  pythonStatement    Statement
+"hi def link  pythonLambdaExpr   Statement
+"hi def link  pythonInclude      Include
+"hi def link  pythonFunction     Function
+"hi def link  pythonClass        Type
+"hi def link  pythonParameters   Normal
+"hi def link  pythonParam        Normal
+"hi def link  pythonBrackets     Normal
+"hi def link  pythonClassParameters Normala
+"hi def link  pythonSelf         Identifier
 
-" hi link pythonOperator  SVDBlueBold
-" hi link pythonStatement SVDBlueBold
+"hi def link  pythonConditional  Conditional
+"hi def link  pythonRepeat       Repeat
+"hi def link  pythonException    Exception
+"hi def link  pythonOperator     Operator
+"hi def link  pythonExtraOperator        Operator
+"hi def link  pythonExtraPseudoOperator  Operator
 
-" hi pythonDottedName      ctermfg=74  guifg=#5fafd7
+"hi def link  pythonDecorator    Define
+"hi def link  pythonDottedName   Function
+"hi def link  pythonDot          Normal
 
-" hi pythonError           ctermfg=196 guifg=#ff0000
-" hi pythonIndentError     ctermfg=197 guifg=#ff005f
-" hi pythonSpaceError      ctermfg=198 guifg=#ff0087
+"hi def link  pythonComment      Comment
+"hi def link  pythonCoding       Special
+"hi def link  pythonRun          Special
+"hi def link  pythonTodo         Todo
 
-" hi pythonBuiltinType     ctermfg=170  guifg=#D54FD5 cterm=bold gui=bold
-" hi pythonBuiltinObj      ctermfg=71  guifg=#5faf5f cterm=bold gui=bold
-" hi pythonBuiltinFunc     ctermfg=169 guifg=#d75faf cterm=bold gui=bold
+"hi def link  pythonError        Error
+"hi def link  pythonIndentError  Error
+"hi def link  pythonSpaceError   Error
 
-" hi pythonException       ctermfg=207 guifg=#CC3366 cterm=bold gui=bold
+"hi def link  pythonString       String
+"hi def link  pythonDocstring    String
+"hi def link  pythonUniString    String
+"hi def link  pythonRawString    String
+"hi def link  pythonUniRawString String
 
+"hi def link  pythonEscape       Special
+""    hi def link  pythonEscapeError  Error
+"hi def link  pythonUniEscape    Special
+"hi def link  pythonUniEscapeError Error
+"hi def link  pythonUniRawEscape Special
+"hi def link  pythonUniRawEscapeError Error
 
+"hi def link  pythonStrFormatting Special
+"hi def link  pythonStrFormat    Special
+"hi def link  pythonStrTemplate  Special
+
+"hi def link  pythonDocTest      Special
+"hi def link  pythonDocTest2     Special
+
+"hi def link  pythonNumber       Number
+"hi def link  pythonHexNumber    Number
+"hi def link  pythonOctNumber    Number
+"hi def link  pythonBinNumber    Number
+"hi def link  pythonFloat        Float
+"hi def link  pythonOctError     Error
+"hi def link  pythonHexError     Error
+"hi def link  pythonBinError     Error
+
+"hi def link  pythonBuiltinType  Type
+"hi def link  pythonBuiltinObj   Structure
+"hi def link  pythonBuiltinFunc  Function
+"hi def link  pythonExClass      Structure
+
+    
 " Javascript
 call s:h("jsFuncName",          { "fg": s:green })
 call s:h("jsThis",              { "fg": s:pink })
