@@ -30,7 +30,8 @@ Copy color to vim if no exist `~/.vim/colors/`, create folder.
 
 
 #### inspiration
+```
 crusoexia/vim-monokai
 liuchengxu/space-vim-dark
 jacoborus/tender.vim
-
+```
