@@ -4,9 +4,6 @@
 # A colorscheme for Vim inspired by the legendary teenage warriors.
 
 
-==============================================================================================================
-==============================================================================================================
-
 ## Screenshots
 ![python](http://i.imgur.com/bFCw1hs.png)
 ![javascript](http://i.imgur.com/xeu5egX.png)
