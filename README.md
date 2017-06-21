@@ -1,7 +1,10 @@
 ![TMNT](http://i.imgur.com/dQ24EoO.png)
-==============================================================================================================
+
+***
 
 # A colorscheme for Vim inspired by the legendary teenage warriors.
+
+***
 
 
 ## Screenshots
