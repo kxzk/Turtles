@@ -1,10 +1,15 @@
 ![TMNT](http://i.imgur.com/dQ24EoO.png)
 ==============================================================================================================
 
-A colorscheme for Vim inspired by the legendary teenage warriors.
+# A colorscheme for Vim inspired by the legendary teenage warriors.
+
+
+==============================================================================================================
+==============================================================================================================
 
 ## Screenshots
-![gvdiff](https://cloud.githubusercontent.com/assets/829859/18417983/3253da42-783e-11e6-93ac-b0f506f0a3c5.png)
+![python](http://i.imgur.com/bFCw1hs.png)
+![javascript](http://i.imgur.com/xeu5egX.png)
 
 
 ## Installation
