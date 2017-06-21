@@ -3,7 +3,6 @@
 ***
 
 # A colorscheme for Vim inspired by the legendary teenage warriors.
-
 ***
 
 
