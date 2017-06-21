@@ -23,7 +23,7 @@ NeoBundle 'beigebrucewayne/Turtles'
 Plugin 'beigebrucewayne/Turtles'
 ```
 
-Copy color to vim if no exist `~/.vim/colors/`, create folder.
+Copy color to vim...if `~/.vim/colors/` doesn't exist, create folder.
 ```
  cp ~/.vim/bundle/tender/colors/tender.vim ~/.vim/colors/tender.vim
 ```
