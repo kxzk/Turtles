@@ -1,7 +1,7 @@
 ![TMNT](http://i.imgur.com/dQ24EoO.png)
 
 
-# A colorscheme for Vim inspired by the legendary teenage warriors (in development).
+# A colorscheme for Vim inspired by the legendary teenage warriors.
 
 
 
@@ -27,6 +27,10 @@ Plug 'beigebrucewayne/Turtles'
 NeoBundle 'beigebrucewayne/Turtles'
 " Vundle
 Plugin 'beigebrucewayne/Turtles'
+```
+
+```viml
+colorscheme turtles
 ```
 
 Copy color to vim...if `~/.vim/colors/` doesn't exist, create folder.
