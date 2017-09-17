@@ -42,7 +42,7 @@ Get highlighted parentheses ->
 [Rainbow Parens](https://github.com/kien/rainbow_parentheses.vim)
 
 ```viml
-# set in vimrc/init.vim
+" set in vimrc/init.vim
 augroup RainbowParens
  au!
  au VimEnter * RainbowParenthesesToggle
