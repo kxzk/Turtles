@@ -36,6 +36,20 @@ colorscheme turtles
 Copy color to vim...if `~/.vim/colors/` doesn't exist, create folder.
 ```
  cp ~/.vim/bundle/Turtles/colors/turtles.vim ~/.vim/colors/turtles.vim
+```  
+
+Get highlighted parentheses ->
+[Rainbow Parens](https://github.com/kien/rainbow_parentheses.vim)
+
+```viml
+# set in vimrc/init.vim
+augroup RainbowParens
+ au!
+ au VimEnter * RainbowParenthesesToggle
+ au Syntax * RainbowParenthesesLoadRound
+ au Syntax * RainbowParenthesesLoadSquare
+ au Syntax * RainbowParenthesesLoadBraces
+augroup END
 ```
 
 
