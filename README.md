@@ -1,4 +1,4 @@
-![new](https://i.imgur.com/Er7rwMs.png)
+![TMNT](http://i.imgur.com/dQ24EoO.png)
 
 
 # A colorscheme for Vim inspired by the legendary teenage warriors.
@@ -37,6 +37,8 @@ Copy color to vim...if `~/.vim/colors/` doesn't exist, create folder.
 ```
  cp ~/.vim/bundle/Turtles/colors/turtles.vim ~/.vim/colors/turtles.vim
 ```  
+
+---  
 
 Get highlighted parentheses ->
 [Rainbow Parens](https://github.com/kien/rainbow_parentheses.vim)
