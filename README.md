@@ -1,4 +1,4 @@
-![TMNT](http://i.imgur.com/dQ24EoO.png)
+![new](https://i.imgur.com/Er7rwMs.png)
 
 
 # A colorscheme for Vim inspired by the legendary teenage warriors.
