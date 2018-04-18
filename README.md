@@ -22,11 +22,11 @@ Install manually or use a package manager:
 
 ```viml
 " vim-plug
-Plug 'beigebrucewayne/Turtles'
+Plug 'kadekillary/Turtles'
 " NeoBundle
-NeoBundle 'beigebrucewayne/Turtles'
+NeoBundle 'kadekillary/Turtles'
 " Vundle
-Plugin 'beigebrucewayne/Turtles'
+Plugin 'kadekillary/Turtles'
 ```
 
 ```viml
