@@ -3,6 +3,8 @@
 
 # A colorscheme for Vim inspired by the legendary teenage warriors.
 
+![](https://img.shields.io/github/license/mashape/apistatus.svg)
+
 
 
 ### Screenshots
